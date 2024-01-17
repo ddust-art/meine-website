@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --hauptfarbe: #4caf50;--akzentfarbe: #2196F3;
+    --hintergrundfarbe: #FFFFFF;
+}
+
 body {
     margin: 0;
 }
@@ -13,7 +18,7 @@ body {
 }
 
 .header {
-    background-color: steelblue;
+    background-color: var(--akzentfarbe);
     color: whitesmoke;
     height: 10rem;
     padding: 2rem;
@@ -38,7 +43,7 @@ body {
 }
 
 .btn-primary {
-    background-color: blueviolet;
+    background-color: var(--akzentfarbe);
     color: whitesmoke;
     border: none;
     padding: 0.5rem;
